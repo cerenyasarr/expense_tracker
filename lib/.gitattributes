@@ -1,0 +1,5 @@
+macos/   linguist-vendored
+windows/ linguist-vendored
+linux/   linguist-vendored
+ios/     linguist-vendored
+android/ linguist-vendored
