@@ -1,5 +1,21 @@
-macos/   linguist-vendored
-windows/ linguist-vendored
-linux/   linguist-vendored
-ios/     linguist-vendored
-android/ linguist-vendored
+# Dil istatistiklerinin doğru hesaplanması için platforma özgü klasörleri yoksay.
+# Bu klasörler "vendored" olarak işaretlenir ve Linguist tarafından sayılmaz.
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+
+# Oluşturulan dosyaları yoksay.
+build/** linguist-generated
+
+# Belirli dosya türlerini ve dilleri açıkça yoksay (isteğe bağlı).
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.m linguist-detectable=false
+*.java linguist-detectable=false
+*.kt linguist-detectable=false
+*.cmake linguist-detectable=false
+
+# Dart dosyalarını özellikle belirt (genellikle gerekli olmasa da emin olmak için eklenebilir).
+*.dart linguist-detectable=true
