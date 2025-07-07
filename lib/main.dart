@@ -1,24 +1,10 @@
 import 'package:flutter/material.dart';
 
-class Expenses extends StatefulWidget {
-  const Expenses({super.key});
+import 'package:expense_tracker/widgets/expenses.dart';
 
-  @override
-  State<StatefulWidget> createState() {
-    return _ExpensesState();
-  }
-}
-
-class _ExpensesState extends State<Expenses> {
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Column(
-        children: [
-          Text('The chart'),
-          Text('Expenses list...'),
-        ],
-      ),
-    );
-  }
+void main() {
+  runApp(MaterialApp(
+    theme: ThemeData(useMaterial3: true),
+    home: const Expenses(),
+  ));
 }
