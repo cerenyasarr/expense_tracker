@@ -47,6 +47,7 @@ class _NewExpenseState extends State<NewExpense> {
               Expanded(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     const Text('Selected Date'),
                     IconButton(
