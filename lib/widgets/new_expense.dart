@@ -88,13 +88,16 @@ class _NewExpenseState extends State<NewExpense> {
                   items: Category.values
                       .map(
                         (category) => DropdownMenuItem(
+                          value: category,
                           child: Text(
                             category.name.toString(),
                           ),
                         ),
                       )
                       .toList(),
-                  onChanged: (value) {}),
+                  onChanged: (value) {
+                    print(value);
+                  }),
               TextButton(
                   onPressed: () {
                     Navigator.pop(context);
