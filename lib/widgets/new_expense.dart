@@ -90,7 +90,7 @@ class _NewExpenseState extends State<NewExpense> {
                         (category) => DropdownMenuItem(
                           value: category,
                           child: Text(
-                            category.name.toString(),
+                            category.name.toUpperCase(),
                           ),
                         ),
                       )
