@@ -86,6 +86,7 @@ class _NewExpenseState extends State<NewExpense> {
           Row(
             children: [
               DropdownButton(
+                  value: _selectedCategory,
                   items: Category.values
                       .map(
                         (category) => DropdownMenuItem(
@@ -101,7 +102,9 @@ class _NewExpenseState extends State<NewExpense> {
                       if (value == null) {
                         return;
                       }
-                      _selectedCategory = value;
+                      setState(() {
+                        _selectedCategory = value;
+                      });
                     });
                   }),
               TextButton(
