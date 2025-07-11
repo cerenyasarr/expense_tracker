@@ -15,6 +15,7 @@ class _NewExpenseState extends State<NewExpense> {
   final _titleController = TextEditingController();
   final _amountController = TextEditingController();
   DateTime? _selectedDate;
+  Category _selectedCategory = Category.leisure;
 
   void _presentDatePicker() async {
     final now = DateTime.now();
@@ -96,7 +97,12 @@ class _NewExpenseState extends State<NewExpense> {
                       )
                       .toList(),
                   onChanged: (value) {
-                    print(value);
+                    setState(() {
+                      if (value == null) {
+                        return;
+                      }
+                      _selectedCategory = value;
+                    });
                   }),
               TextButton(
                   onPressed: () {
