@@ -7,7 +7,9 @@ var kColorsScheme = ColorScheme.fromSeed(seedColor: Colors.deepPurple);
 void main() {
   runApp(
     MaterialApp(
-      theme: ThemeData.light().copyWith(),
+      theme: ThemeData.light().copyWith(
+        colorScheme: kColorsScheme,
+      ),
       home: const Expenses(),
     ),
   );
