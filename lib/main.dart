@@ -28,8 +28,10 @@ void main() {
           ),
           textTheme: ThemeData().textTheme.copyWith(
                 titleLarge: TextStyle(
-                    fontWeight: FontWeight.normal,
-                    color: kColorsScheme.onSecondaryContainer),
+                  fontWeight: FontWeight.normal,
+                  color: kColorsScheme.onSecondaryContainer,
+                  fontSize: 14,
+                ),
               )),
       home: const Expenses(),
     ),
