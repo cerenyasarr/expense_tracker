@@ -25,7 +25,12 @@ void main() {
             style: ElevatedButton.styleFrom(
               backgroundColor: kColorsScheme.primaryContainer,
             ),
-          )),
+          ),
+          textTheme: ThemeData().textTheme.copyWith(
+                titleLarge: TextStyle(
+                    fontWeight: FontWeight.normal,
+                    color: kColorsScheme.onSecondaryContainer),
+              )),
       home: const Expenses(),
     ),
   );
