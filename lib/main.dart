@@ -9,11 +9,16 @@ void main() {
   runApp(
     MaterialApp(
       theme: ThemeData.light().copyWith(
-          colorScheme: kColorsScheme,
-          appBarTheme: const AppBarTheme().copyWith(
-            backgroundColor: kColorsScheme.onPrimaryContainer,
-            foregroundColor: kColorsScheme.primaryContainer,
-          )),
+        colorScheme: kColorsScheme,
+        appBarTheme: const AppBarTheme().copyWith(
+          backgroundColor: kColorsScheme.onPrimaryContainer,
+          foregroundColor: kColorsScheme.primaryContainer,
+        ),
+        cardTheme: const CardThemeData().copyWith(
+          color: kColorsScheme.secondaryContainer,
+          margin: const EdgeInsets.all(16),
+        ),
+      ),
       home: const Expenses(),
     ),
   );
