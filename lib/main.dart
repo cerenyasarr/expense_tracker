@@ -12,6 +12,7 @@ void main() {
           colorScheme: kColorsScheme,
           appBarTheme: const AppBarTheme().copyWith(
             backgroundColor: kColorsScheme.onPrimaryContainer,
+            foregroundColor: kColorsScheme.primaryContainer,
           )),
       home: const Expenses(),
     ),
