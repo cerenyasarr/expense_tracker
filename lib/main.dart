@@ -9,8 +9,10 @@ void main() {
   runApp(
     MaterialApp(
       theme: ThemeData.light().copyWith(
-        colorScheme: kColorsScheme,
-      ),
+          colorScheme: kColorsScheme,
+          appBarTheme: AppBarTheme().copyWith(
+            backgroundColor: kColorsScheme.onPrimaryContainer,
+          )),
       home: const Expenses(),
     ),
   );
