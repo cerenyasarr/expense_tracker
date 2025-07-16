@@ -9,19 +9,23 @@ void main() {
   runApp(
     MaterialApp(
       theme: ThemeData.light().copyWith(
-        colorScheme: kColorsScheme,
-        appBarTheme: const AppBarTheme().copyWith(
-          backgroundColor: kColorsScheme.onPrimaryContainer,
-          foregroundColor: kColorsScheme.primaryContainer,
-        ),
-        cardTheme: const CardThemeData().copyWith(
-          color: kColorsScheme.secondaryContainer,
-          margin: const EdgeInsets.symmetric(
-            horizontal: 16,
-            vertical: 8,
+          colorScheme: kColorsScheme,
+          appBarTheme: const AppBarTheme().copyWith(
+            backgroundColor: kColorsScheme.onPrimaryContainer,
+            foregroundColor: kColorsScheme.primaryContainer,
           ),
-        ),
-      ),
+          cardTheme: const CardThemeData().copyWith(
+            color: kColorsScheme.secondaryContainer,
+            margin: const EdgeInsets.symmetric(
+              horizontal: 16,
+              vertical: 8,
+            ),
+          ),
+          elevatedButtonTheme: ElevatedButtonThemeData(
+            style: ElevatedButton.styleFrom(
+              backgroundColor: kColorsScheme.primaryContainer,
+            ),
+          )),
       home: const Expenses(),
     ),
   );
