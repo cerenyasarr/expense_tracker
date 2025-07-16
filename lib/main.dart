@@ -10,7 +10,7 @@ void main() {
     MaterialApp(
       theme: ThemeData.light().copyWith(
           colorScheme: kColorsScheme,
-          appBarTheme: AppBarTheme().copyWith(
+          appBarTheme: const AppBarTheme().copyWith(
             backgroundColor: kColorsScheme.onPrimaryContainer,
           )),
       home: const Expenses(),
