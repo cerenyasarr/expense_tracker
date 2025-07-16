@@ -16,7 +16,10 @@ void main() {
         ),
         cardTheme: const CardThemeData().copyWith(
           color: kColorsScheme.secondaryContainer,
-          margin: const EdgeInsets.all(16),
+          margin: const EdgeInsets.symmetric(
+            horizontal: 16,
+            vertical: 8,
+          ),
         ),
       ),
       home: const Expenses(),
