@@ -11,6 +11,17 @@ var kDarkColorScheme =
 void main() {
   runApp(
     MaterialApp(
+      darkTheme: ThemeData.dark().copyWith(
+        useMaterial3: true,
+        colorScheme: kDarkColorScheme,
+        cardTheme: const CardThemeData().copyWith(
+          color: kColorsScheme.secondaryContainer,
+          margin: const EdgeInsets.symmetric(
+            horizontal: 16,
+            vertical: 8,
+          ),
+        ),
+      ),
       theme: ThemeData.light().copyWith(
           colorScheme: kColorsScheme,
           appBarTheme: const AppBarTheme().copyWith(
@@ -36,6 +47,7 @@ void main() {
                   fontSize: 16,
                 ),
               )),
+      themeMode: ThemeMode.system, //default
       home: const Expenses(),
     ),
   );
