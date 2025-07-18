@@ -5,8 +5,9 @@ import 'package:expense_tracker/widgets/expenses.dart';
 var kColorsScheme =
     ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 124, 90, 182));
 
-var kDarkColorScheme =
-    ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 5, 99, 125));
+var kDarkColorScheme = ColorScheme.fromSeed(
+    brightness: Brightness.dark,
+    seedColor: const Color.fromARGB(255, 5, 99, 125));
 
 void main() {
   runApp(
