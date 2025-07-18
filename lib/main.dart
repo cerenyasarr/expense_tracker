@@ -13,7 +13,6 @@ void main() {
   runApp(
     MaterialApp(
       darkTheme: ThemeData.dark().copyWith(
-        useMaterial3: true,
         colorScheme: kDarkColorScheme,
         cardTheme: const CardThemeData().copyWith(
           color: kDarkColorScheme.secondaryContainer,
