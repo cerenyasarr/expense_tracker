@@ -16,7 +16,7 @@ void main() {
         useMaterial3: true,
         colorScheme: kDarkColorScheme,
         cardTheme: const CardThemeData().copyWith(
-          color: kColorsScheme.secondaryContainer,
+          color: kDarkColorScheme.secondaryContainer,
           margin: const EdgeInsets.symmetric(
             horizontal: 16,
             vertical: 8,
