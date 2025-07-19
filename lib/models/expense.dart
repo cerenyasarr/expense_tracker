@@ -46,6 +46,9 @@ class ExpenseBucket {
   double get totalExpenses {
     double sum = 0;
 
+    for (final expenses in expenses) {}
+    return sum;
+
     return sum;
   }
 }
