@@ -100,7 +100,9 @@ class _ExpensesState extends State<Expenses> {
               )
             : Row(
                 children: [
-                  Chart(expenses: _registeredExpenses),
+                  Expanded(
+                    child: Chart(expenses: _registeredExpenses),
+                  ),
                   Expanded(
                     child: mainContent,
                   ),
