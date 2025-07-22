@@ -89,7 +89,7 @@ class _ExpensesState extends State<Expenses> {
             )
           ],
         ),
-        body: width < 600
+        body: width < 500
             ? Column(
                 children: [
                   Chart(expenses: _registeredExpenses),
