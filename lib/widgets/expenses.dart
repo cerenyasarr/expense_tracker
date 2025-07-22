@@ -73,7 +73,7 @@ class _ExpensesState extends State<Expenses> {
     final width = MediaQuery.of(context).size.width;
 
     Widget mainContent =
-        const Center(child: Text('No expenses found.Start adding some!'));
+        const Center(child: Text('No expenses found. Start adding some!'));
     if (_registeredExpenses.isNotEmpty) {
       mainContent = ExpensesList(
           expenses: _registeredExpenses, onRemoveExpense: _removeExpense);
@@ -89,7 +89,7 @@ class _ExpensesState extends State<Expenses> {
             )
           ],
         ),
-        body: width < 500
+        body: width < 600
             ? Column(
                 children: [
                   Chart(expenses: _registeredExpenses),
