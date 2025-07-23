@@ -84,7 +84,7 @@ class _NewExpenseState extends State<NewExpense> {
           children: [
             TextField(
               controller: _titleController,
-              maxLength: 50,
+              maxLength: 51,
               decoration: const InputDecoration(
                 label: Text('Title'),
               ),
