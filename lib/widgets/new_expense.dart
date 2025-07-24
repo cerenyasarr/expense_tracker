@@ -102,6 +102,12 @@ class _NewExpenseState extends State<NewExpense> {
                   ],
                 )
               else
+                TextField(),
+              if (width >= 600)
+                Row(
+                  children: [],
+                )
+              else
                 Row(
                   children: [
                     Expanded(
