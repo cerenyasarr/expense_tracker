@@ -77,7 +77,8 @@ class _NewExpenseState extends State<NewExpense> {
   Widget build(BuildContext context) {
     final keyboardSpace = MediaQuery.of(context).viewInsets.bottom;
     return LayoutBuilder(builder: (ctx, constrains) {
-      print(constrains);
+      print(constrains.minWidth);
+      print(constrains.maxWidth);
 
       return SizedBox(
         height: double.infinity,
