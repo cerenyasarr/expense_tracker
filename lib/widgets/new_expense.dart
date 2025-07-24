@@ -87,12 +87,15 @@ class _NewExpenseState extends State<NewExpense> {
             children: [
               if (width >= 600)
                 Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    TextField(
-                      controller: _titleController,
-                      maxLength: 51,
-                      decoration: const InputDecoration(
-                        label: Text('Title'),
+                    Expanded(
+                      child: TextField(
+                        controller: _titleController,
+                        maxLength: 51,
+                        decoration: const InputDecoration(
+                          label: Text('Title'),
+                        ),
                       ),
                     ),
                     const SizedBox(width: 24),
@@ -101,12 +104,14 @@ class _NewExpenseState extends State<NewExpense> {
               else
                 Row(
                   children: [
-                    TextField(
-                      controller: _amountController,
-                      keyboardType: TextInputType.number,
-                      decoration: const InputDecoration(
-                        prefixText: '\$ ',
-                        label: Text('Amount'),
+                    Expanded(
+                      child: TextField(
+                        controller: _amountController,
+                        keyboardType: TextInputType.number,
+                        decoration: const InputDecoration(
+                          prefixText: '\$ ',
+                          label: Text('Amount'),
+                        ),
                       ),
                     ),
                     const SizedBox(width: 16),
