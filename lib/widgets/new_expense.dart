@@ -79,6 +79,8 @@ class _NewExpenseState extends State<NewExpense> {
     return LayoutBuilder(builder: (ctx, constrains) {
       print(constrains.minWidth);
       print(constrains.maxWidth);
+      print(constrains.minHeight);
+      print(constrains.maxHeight);
 
       return SizedBox(
         height: double.infinity,
