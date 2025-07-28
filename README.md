@@ -52,4 +52,11 @@ lib/
    git clone https://github.com/cerenyasarr/expense_tracker.git
 
 2.	Navigate into the project:
+   
    cd expense_tracker
+
+3.	Install dependencies:
+
+   flutter pub get
+
+   
