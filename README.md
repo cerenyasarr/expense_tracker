@@ -63,4 +63,25 @@ lib/
 
         flutter run
 
-   
+ ⸻
+
+
+⚙️ Tech Stack
+	•	Framework: Flutter
+	•	Language: Dart
+	•	State Management: setState (no external library)
+	•	UI Components: Material & Cupertino Widgets
+
+⸻
+
+🔮 Future Improvements
+	•	🗃 Persistent storage with Hive or SQLite
+	•	🔎 Expense filtering by date range
+	•	📄 Export expenses to CSV or PDF
+	•	🔔 Budget reminders or notifications
+
+⸻
+
+👤 Author
+
+Ceren Yaşar
