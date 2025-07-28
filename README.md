@@ -33,3 +33,23 @@ lib/
 │   │   ├── expenses_list.dart         # Expense list with swipe delete
 │   │   └── expense_item.dart          # Single expense card
 │   └── new_expense.dart              # Add new expense modal
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK (3.x recommended)  
+- Dart SDK  
+- Emulator or physical device
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/cerenyasarr/expense_tracker.git
+
+2.	Navigate into the project:
+   cd expense_tracker
