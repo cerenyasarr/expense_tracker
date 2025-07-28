@@ -23,6 +23,7 @@ A simple yet elegant expense tracking app built with **Flutter**. Easily add, vi
 
 ## 🗂️ Project Structure
 
+```plaintext
 lib/
 ├── main.dart                          # Entry point
 ├── models/
@@ -35,7 +36,8 @@ lib/
 │   ├── expenses_list/
 │   │   ├── expenses_list.dart         # Expense list with swipe delete
 │   │   └── expense_item.dart          # Single expense card
-│   └── new_expense.dart              # Add new expense modal
+│   └── new_expense.dart              # Add new expense modal 
+```
 
 ---
 
