@@ -53,10 +53,10 @@ lib/
 
 2.	Navigate into the project:
    
-   cd expense_tracker
+        cd expense_tracker
 
 3.	Install dependencies:
 
-   flutter pub get
+        flutter pub get
 
    
