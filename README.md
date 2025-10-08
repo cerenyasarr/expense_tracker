@@ -15,9 +15,7 @@ A simple yet elegant expense tracking app built with **Flutter**. Easily add, vi
 
 ---
 
-## 📷 Screenshots
 
-*(You can add screenshots here in the future to show app functionality.)*
 
 ---
 
