@@ -13,7 +13,6 @@ A simple yet elegant expense tracking app built with **Flutter**. Easily add, vi
 - 🌓 Fully supports **light** and **dark** themes
 - 📱 Responsive layout for mobile and tablet devices
 
----
 
 
 
