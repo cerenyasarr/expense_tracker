@@ -42,7 +42,7 @@ lib/
 
 ### Prerequisites
 
-- Flutter SDK (3.x recommended)  
+- Flutter SDK
 - Dart SDK  
 - Emulator or physical device
 
