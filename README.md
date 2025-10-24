@@ -11,7 +11,7 @@ A simple yet elegant expense tracking app built with **Flutter**. Easily add, vi
 - 🧽 Swipe to delete an expense with **Undo** option
 - 📊 Visual summary chart by expense category
 - 🌓 Fully supports **light** and **dark** themes
-- 📱 Responsive layout for mobile and tablet devices
+- 📱 Responsive layout for mobile and tablet devices 
 
 
 
