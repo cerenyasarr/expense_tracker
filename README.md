@@ -11,10 +11,7 @@ A simple yet elegant expense tracking app built with **Flutter**. Easily add, vi
 - 🧽 Swipe to delete an expense with **Undo** option
 - 📊 Visual summary chart by expense category
 - 🌓 Fully supports **light** and **dark** themes
-- 📱 Responsive layout for mobile and tablet devices 
-
-
-
+- 📱 Responsive layout for mobile and tablet devices
 
 ---
 
@@ -33,58 +30,61 @@ lib/
 │   ├── expenses_list/
 │   │   ├── expenses_list.dart         # Expense list with swipe delete
 │   │   └── expense_item.dart          # Single expense card
-│   └── new_expense.dart               # Add new expense modal 
-```
+│   └── new_expense.dart               # Add new expense modal
+````
 
----
+-----
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Flutter SDK
-- Dart SDK  
-- Emulator or physical device
+  - Flutter SDK
+  - Dart SDK
+  - Emulator or physical device
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/cerenyasarr/expense_tracker.git
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/cerenyasarr/expense_tracker.git](https://github.com/cerenyasarr/expense_tracker.git)
+    ```
+2.  Navigate into the project:
+    ```bash
+    cd expense_tracker
+    ```
+3.  Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+4.  Run the app:
+    ```bash
+    flutter run
+    ```
 
-2.	Navigate into the project:
-   
-        cd expense_tracker
-
-3.	Install dependencies:
-
-        flutter pub get
-
-4.	Run the app:
-
-        flutter run
-
- ⸻
-
+-----
 
 ## ⚙️ Tech Stack
 
-- **Framework:** Flutter  
-- **Language:** Dart  
-- **State Management:** `setState` (no external library)  
-- **UI Components:** Material & Cupertino Widgets  
+  - **Framework:** Flutter
+  - **Language:** Dart
+  - **State Management:** `setState` (no external library)
+  - **UI Components:** Material & Cupertino Widgets
 
----
+-----
 
 ## 🔮 Future Improvements
 
-- 🗃 Persistent storage with Hive or SQLite  
-- 🔎 Expense filtering by date range  
-- 📄 Export expenses to CSV or PDF  
-- 🔔 Budget reminders or notifications  
+  - 🗃 Persistent storage with Hive or SQLite
+  - 🔎 Expense filtering by date range
+  - 📄 Export expenses to CSV or PDF
+  - 🔔 Budget reminders or notifications
 
-⸻
+-----
 
 👤 Author
 
 Ceren Yaşar
+
+```
+```
