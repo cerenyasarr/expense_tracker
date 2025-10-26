@@ -16,10 +16,9 @@ A simple yet elegant expense tracking app built with **Flutter**. Easily add, vi
 ---
 ## ✨ Screenshots
 
-|   |   |   |   |
+| Main Interface | Title & Category Selection | Date Selection | Final Interface with Charts |
 |---|---|---|---|
-| <img width="200" alt="Ekran Arayüzü" src="https://github.com/user-attachments/assets/46e97749-6fae-489d-abaf-1107696d229e" /> | <img width="200" alt="Title ve Kategori Seçme" src="https://github.com/user-attachments/assets/e2b353c4-5219-4e00-81fe-67df8e6c9cb5" /> | <img width="200" alt="Tarih Seçme" src="https://github.com/user-attachments/assets/51e912b5-6aeb-46d0-9436-23c07e22872a" /> | <img width="200" alt="Arayüz Grafiklerle Son Hali" src="https://github.com/user-attachments/assets/93e5eb63-ceac-47e4-8599-abbeb437755a" /> |
-| **Ekran Arayüzü** | **Title ve Kategori Seçme** | **Tarih Seçme** | **Arayüz Grafiklerle Son Hali** |
+| <img width="200" alt="Main Interface" src="https://github.com/user-attachments/assets/46e97749-6fae-489d-abaf-1107696d229e" /> | <img width="200" alt="Title and Category Selection" src="https://github.com/user-attachments/assets/e2b353c4-5219-4e00-81fe-67df8e6c9cb5" /> | <img width="200" alt="Date Selection" src="https://github.com/user-attachments/assets/51e912b5-6aeb-46d0-9436-23c07e22872a" /> | <img width="200" alt="Final Interface with Charts" src="https://github.com/user-attachments/assets/93e5eb63-ceac-47e4-8599-abbeb437755a" /> |
 
 ## 🗂️ Project Structure
 
