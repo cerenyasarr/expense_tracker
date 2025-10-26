@@ -87,9 +87,6 @@ lib/
 
 -----
 
-👤 Author
+👩🏼‍💻 Author
 
 Ceren Yaşar
-
-```
-```
