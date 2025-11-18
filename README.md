@@ -1,4 +1,4 @@
-# 💸 Expense Tracker App 
+# 💸 Expense Tracker App  
 
 A simple yet elegant expense tracking app built with **Flutter**. Easily add, view, and manage your daily expenses — with category filters and a responsive chart view. 
 
